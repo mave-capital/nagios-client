@@ -22,7 +22,7 @@ tar -xvf $PLUGIN_TAR
 pushd nagios-plugins-release-$PLUGIN_VERSION
 ./tools/setup
 ./configure --with-nagios-user=nagios
-./make -j$(nproc)
+make -j$(nproc)
 sudo make install
 popd
 popd
