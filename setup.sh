@@ -9,7 +9,7 @@ sudo apt-get install \
     curl \
     gettext
 
-sudo adduser --group nagios
+sudo adduser nagios
 
 rm -rf build
 mkdir -p build
