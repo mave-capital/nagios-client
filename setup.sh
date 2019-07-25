@@ -9,7 +9,7 @@ sudo apt-get install \
     curl \
     gettext
 
-sudo adduser nagios
+sudo adduser --disabled-password --gecos "" nagios
 
 rm -rf build
 mkdir -p build
